@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Lucinda Console", "Courier new", Courier, monospace;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  padding: 1px;
+  width: 300px;
+  border: 4px solid black;
+}
+
+.row {
+  display: flex;
+}
+
+button,
+input {
+  width: 56px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 1px;
+}
+
+.display {
+  border-bottom: 1px solid black;
+  text-align: right;
+  background: blue;
+  color: yellow;
+  font-weight: 600;
+  line-height: 1;
+  margin: 1px;
+}
